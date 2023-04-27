@@ -1,0 +1,107 @@
+.body {
+    background-color: antiquewhite;
+
+}
+.header {
+    display: inline-block;
+    padding: 20px;
+    background-color: rgb(228, 210, 188);
+    color: lightseagreen;
+}
+.header h1 {
+    display: inline-block;
+    font-size: 50px;
+
+}
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -165px;
+    background-color:  rgb(228, 210, 188);
+    color: lightseagreen;
+    padding: 65px;
+
+}
+.nav li {
+    padding: 14px 20px;
+}
+.AboutMe {
+    padding-left: 22px;
+    padding-bottom: 15px;
+    font-size: 19px;
+}
+.AboutMe h1 {
+    padding-left: 12px;
+}
+.AboutMe p {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 90px;
+    padding-top: 25px;
+    padding-bottom: 75px;
+}
+.selfie {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    padding-left: 0px;
+    padding-bottom: 75px;
+}
+
+.Work {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.Work h1 {
+    position: absolute; left: 140px; top: 600px;
+    font-size: 30px;
+}
+.Work h2 {
+    padding-right: 15px;
+    color: rgb(69, 69, 82);
+}
+.proj1 {
+    display: flex;
+    justify-content: flex-end;
+    height: 400px;
+    width: 35%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.prework {
+    display: flex;
+    justify-content: flex-end;
+    height: 400px;
+    width: 70%;
+    margin-bottom: 25px;
+    background-image: url("../images/bowtie-cat.png");
+    background-size: cover;
+    background-position: center;
+
+
+}
+.Work3 {
+    display: flex;
+    justify-content: flex-end;
+    height: 400px;
+    width: 35%;
+    margin-bottom: 25px;
+    background-image: url("../images/placeholderimg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.Contact {
+    background-color: rgb(228, 210, 188);
+}
+.Contact ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px;
+    font-size: 20px;
+}
+    
