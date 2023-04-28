@@ -3,21 +3,23 @@
 
 }
 .header {
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     padding: 20px;
     background-color: rgb(228, 210, 188);
     color: lightseagreen;
 }
 .header h1 {
-    display: inline-block;
     font-size: 50px;
+    padding-top: 40px;
 
 }
 .nav ul {
+    font-size: 20px;
     list-style-type: none;
     display: flex;
-    justify-content: flex-end;
-    margin-top: -165px;
+    justify-content: space-between;
     background-color:  rgb(228, 210, 188);
     color: lightseagreen;
     padding: 65px;
@@ -32,14 +34,14 @@
     font-size: 19px;
 }
 .AboutMe h1 {
-    padding-left: 12px;
+    padding-left: 50px;
 }
 .AboutMe p {
     display: flex;
     flex-wrap: wrap;
     padding-left: 90px;
-    padding-top: 25px;
-    padding-bottom: 75px;
+    padding-top: 45px;
+    padding-bottom: 250px;
 }
 .selfie {
     display: flex;
@@ -51,44 +53,51 @@
 
 .Work {
     display: flex;
-    justify-content: flex-end;
     flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.worktitle {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 75px;
 }
 .Work h1 {
-    position: absolute; left: 140px; top: 600px;
     font-size: 30px;
 }
 .Work h2 {
-    padding-right: 15px;
+    display: flex;
+    justify-content: flex-end;
     color: rgb(69, 69, 82);
+}
+.prework {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 0px;
+    margin-top: -80px;
+    height: 800px;
+    width: 800px;
+    margin-bottom: 25px;
+    background-image: url("../images/bowtie-cat.png");
+    background-size: cover;
+    background-position: center;
 }
 .proj1 {
     display: flex;
-    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-left: 300px;
     height: 400px;
-    width: 35%;
+    width: 400px;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
-.prework {
-    display: flex;
-    justify-content: flex-end;
-    height: 400px;
-    width: 70%;
-    margin-bottom: 25px;
-    background-image: url("../images/bowtie-cat.png");
-    background-size: cover;
-    background-position: center;
 
-
-}
 .Work3 {
     display: flex;
-    justify-content: flex-end;
+    flex-wrap: wrap;
     height: 400px;
-    width: 35%;
+    width: 400px;
     margin-bottom: 25px;
     background-image: url("../images/placeholderimg.jpg");
     background-size: cover;
