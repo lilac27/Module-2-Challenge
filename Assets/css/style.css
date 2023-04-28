@@ -50,20 +50,19 @@
     padding-left: 0px;
     padding-bottom: 75px;
 }
-
+.worktitle {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-left: 75px;
+}
 .Work {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
 }
-.worktitle {
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 75px;
-}
-.Work h1 {
-    font-size: 30px;
-}
+
+
 .Work h2 {
     display: flex;
     justify-content: flex-end;
